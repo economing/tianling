@@ -1,0 +1,13 @@
+from sklearn import svm
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.ensemble import AdaBoostClassifier
+import talib as ta
+import pandas as pd
+import datetime
+import numpy as np
+import matplotlib.pyplot as plt
+import warnings 
+import pywt
+from sklearn.neighbors import KNeighborsClassifier
